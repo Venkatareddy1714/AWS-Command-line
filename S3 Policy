@@ -1,3 +1,7 @@
+Use IAM Role (Recommended for EC2)
+Go to EC2 → Your Instance → Actions → Security → Modify IAM Role
+Attach a role with the following policy:
+
 {
 	"Version": "2012-10-17",
 	"Statement": [
